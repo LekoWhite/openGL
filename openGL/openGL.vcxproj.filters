@@ -63,7 +63,10 @@
     <ClCompile Include="src\tests\TestClearColor.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\tests\TestSquare.cpp">
+    <ClCompile Include="src\tests\Test.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tests\TestTexture2D.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -471,6 +474,7 @@
     <None Include="src\vendor\glm\gtx\wrap.inl">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
+    <None Include="res\shaders\TestSquare.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h">
@@ -1256,7 +1260,7 @@
     <ClInclude Include="src\tests\TestClearColor.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\tests\TestSquare.h">
+    <ClInclude Include="src\tests\TestTexture2D.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
