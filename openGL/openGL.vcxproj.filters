@@ -474,7 +474,6 @@
     <None Include="src\vendor\glm\gtx\wrap.inl">
       <Filter>Fichiers d%27en-tête</Filter>
     </None>
-    <None Include="res\shaders\TestSquare.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h">
